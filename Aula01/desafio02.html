@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Responsivo- para a maioria dos dispositivos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripition" content="...">
+    <meta name="keywords" content="sites, web">
+    <meta name="author" content="Luara Pires">
+    <!-- Adiciona icone/logo na pagina -->
+    <link id="dynamic-favicon" rel="shortcut icon" type="image/x-icon"
+        href="https://s1-e.pinimg.com/webapp/favicon_48x48-ca576772.png">
+    <title>DESAFIO 02- INTRODUÇÃO AO JAVASCRIPT </title>
+</head>
+
+<body>
+        <h1>Desafio 02<h1>
+        <hr>
+        <h2></h2>
+        <script>
+            window.alert("realizador de contas");
+            let num1 = parseInt(window.prompt("informe o primeiro numero? "));
+            let num2 = parseInt(window.prompt("informe o segundo numero? "))
+            let resultado = 0
+
+            let opr = window.prompt("Qual operação sinal de (+) para soma sinal de (-) para subtração  ?")
+
+            if (opr == "+"){
+                resultado =  num1 + num2 
+
+            }else{
+            resultado = num1 - num2
+            }
+
+    
+        document.getElementsByTagName("h2")[0].innerText = resultado
+
+
+
+        </script>
+
+</body>
+
+</html>

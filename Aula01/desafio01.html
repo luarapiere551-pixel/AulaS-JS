@@ -15,19 +15,27 @@
 </head>
 
 <body>
-    <h1>EXERCIOCIO DE JS DE AULA 01</h1>
-    <hr> <!--Linha-->
-    <ul>
-        <li><a href="exercicio01.html" target="_blank">Exercicio 01</a></li>
-        <li><a href="exercicio02.html" target="_blank">Exercicio 02</a></li>
-        <li><a href="exercicio03.html" target="_blank">Exercicio 03</a></li>
-        <li><a href="exercicio04.html" target="_blank">Exercicio 04</a></li>
-        <li><a href="desafio01.html" target="_blank">Desafio 01</a></li>        
-        <li><a href="desafio02.html" target="_blank">Desafio 02</a></li>        
+    <h1>desafio 01<h1>
+            <hr>
+        <script>
+           window.alert("realizador de contas");
 
-    </ul>
+        let num1 = parseInt(window.prompt("informe o primeiro numero? "));
+        let num2 = parseInt(window.prompt("informe o segundo numero?"))
+        let resultado = 0
 
+        let opr = window.prompt("Qual operação sinal de (+) para soma sinal de (-) para subtração  ?")
+        if (opr == "+"){
+            resultado =  num1 + num2 
 
+        }else{
+           resultado = num1 - num2
+        }
+
+        
+        window.alert(resultado)
+               
+        </script>
 
 </body>
 
