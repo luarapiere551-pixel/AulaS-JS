@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Responsivo- para a maioria dos dispositivos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripition" content="...">
+    <meta name="keywords" content="sites, web">
+    <meta name="author" content="Luara Pires">
+    <!-- Adiciona icone/logo na pagina -->
+    <link id="dynamic-favicon" rel="shortcut icon" type="image/x-icon"
+        href="https://s1-e.pinimg.com/webapp/favicon_48x48-ca576772.png">
+    <title>Aula02 - INTRODUÇÃO AO JAVASCRIPT </title>
+</head>
+
+<body>
+    <h1>Exercicio 01 - AULA 02</h1>
+    <hr>
+    <div>
+        <p>O</p>
+        <p>I</p>
+        <p>I</p>
+    </div>
+
+    <script>
+        const tags_p = document.getElementsByTagName('p')
+        console.log(tags_p);
+        let tags_p_1 = tags_p[0]
+        console.log(tags_p_1);
+        tags_p_1.style.backgroundColor = "blue";
+        tags_p_1.style.color = "White"
+        tags_p_1.style.textAlign = "center"
+
+        let tags_p2_1 = tags_p[1]
+        console.log(tags_p2_1);
+        tags_p2_1.style.backgroundColor = "purple";
+        tags_p2_1.style.color = "White";
+        tags_p2_1.style.textAlign = "center";
+
+        let tags_p3_1 = tags_p[2]
+        console.log(tags_p3_1);
+        tags_p3_1.style.backgroundColor = "green";
+        tags_p3_1.style.color = "White";
+        tags_p3_1.style.textAlign = "center";
+
+        tags_p3_1.innerText = "ATURMA DO DEV É FODA!"
+        document.write('<h2>UAAAU, <mark>JAVASCRIPT É MUITO LEGAL!!<mark><h2>')
+
+        const tags_div = document.getElementsByTagName('div')
+        console.log(tags_div);
+
+        let tags_div_1 = tags_div[0]
+        console.log(tags_div_1);
+        tags_div_1.style.backgroundColor = "gray";
+        tags_div_1.style.color = "White"
+        tags_div_1.style.textAlign = "center"
+        tags_div_1.style.padding = "100px";
+        tags_div_1.style.border = "5px solid black ";
+
+
+        const tags_body = document.getElementsByTagName('body')
+        console.log(tags_body);
+
+        let tags_body_1 = tags_body[0]
+        console.log(tags_body_1);
+        tags_body_1.style.backgroundColor = "blue";
+        tags_body_1.style.textAlign = "center"
+
+
+
+    </script>
+
+</body>
+
+</html>

@@ -11,21 +11,27 @@
     <!-- Adiciona icone/logo na pagina -->
     <link id="dynamic-favicon" rel="shortcut icon" type="image/x-icon"
         href="https://s1-e.pinimg.com/webapp/favicon_48x48-ca576772.png">
-    <title>Aula01- INTRODUÇÃO AO JAVASCRIPT </title>
+    <title>Aula02 - INTRODUÇÃO AO JAVASCRIPT </title>
 </head>
 
 <body>
-    <h1>EXERCIOCIO DE JS DE AULA 02</h1>
-    <hr> <!--Linha-->
-    <ul>
-        <li><a href="exercicio01.html" target="_blank">Exercicio 01</a></li>
-        <li><a href="desafio01.html" target="_blank">Desafio 01</a></li>
-        <li><a href="desafio02.html" target="_blank">Desafio 02</a></li>
-        <li><a href="desafio03.html" target="_blank">Desafio 03</a></li>
+    <h1>Manipulando Imagens do HTML através do JS - DESAFIO 01</h1>
 
-    </ul>
+    <div>
+        <img width="100%" src="img/coala.png" alt="Coala">
 
+    </div>
+    <button onclick="trocar_img">Trocar de Imagem</button>
+    <script>
+        function trocar_img() {
+            const tags_src = document.getElementsByTagName("img")
+            console.log(tags_src)
+            let tags_src_1 = tags_src[0]
+            console.log(tags_src_1)
+            tags_src_1.src = "img/tigre.jpg"
+        }
 
+    </script>
 
 </body>
 
